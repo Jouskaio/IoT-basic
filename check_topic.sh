@@ -13,5 +13,5 @@ then
         echo " $adress : $topic      $response"
     done
 else
-    echo "The mosquitto service isn't active, please start it with systemctl start mosquitto"
+    echo "The mosquitto service isn't active, please start it with service start mosquitto"
 fi

@@ -1,8 +1,5 @@
-<<<<<<< HEAD
-# Iot-basic
-=======
+
 # IoT-basic
->>>>>>> Add RUT950 documentation
 
 ## Cheatsheet
 
@@ -13,11 +10,7 @@
 
 Scripts to observe and interact with topics on custom broker who collects data from captor
 
-<<<<<<< HEAD
-* [check_topic](https://github.com/Jouskaio/MQTT-basic/blob/main/check_topic.sh) : check topic information from a custom broker (MQTT)
-=======
 * [check_topic](check_topic.sh) : check topic information from a custom broker (MQTT)
->>>>>>> Add RUT950 documentation
 
 ## Configuration device
 

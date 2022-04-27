@@ -2,8 +2,7 @@
 
 Package to install (linux/Mac) :
 * net-tools : `sudo apt install net-tools`
-  
-    *Content tools necessary to have control on the Linux kernel network subsystem. This command provides tools like `arp`, `ifconfig`, `netstat`, `rarp`, `nameif` and `route`. Moreover, this package possesses commands to modify configuration of specific network equipment like `plipconfig`, `slattach`, `miitool` and advance IP setup (`iptunnel` or `ipmaddr`)*
+  Content tools necessary to have control on the Linux kernel network subsystem. This command provides tools like `arp`, `ifconfig`, `netstat`, `rarp`, `nameif` and `route`. Moreover, this package possesses commands to modify configuration of specific network equipment like `plipconfig`, `slattach`, `miitool` and advance IP setup (`iptunnel` or `ipmaddr`)*
 
 
 ## ifconfig

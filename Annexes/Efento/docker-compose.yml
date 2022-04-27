@@ -1,0 +1,25 @@
+version: "3.8"
+services:
+  database:
+    container_name: database-efento
+    image: postgres:14.2-alpine
+    networks:
+      - iot-efento
+    volumes:
+      - data:/var/lib/postgresql/data
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: iot
+
+networks:
+  iot-efento:
+    name: iot-efento
+volumes:
+  data: {}
+
+
+# Source : https://betterprogramming.pub/connect-from-local-machine-to-postgresql-docker-container-f785f00461a7

@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   database:
-    container_name: database-efento
+    container_name: efento-database
     image: postgres:14.2-alpine
     networks:
       - iot-efento

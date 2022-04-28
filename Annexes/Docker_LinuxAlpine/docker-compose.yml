@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  service:
+    container_name: rut950-alpine
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/etc/systemd/system
+    ports:
+      - "8080:8080"
+
+
+# Source : https://betterprogramming.pub/connect-from-local-machine-to-postgresql-docker-container-f785f00461a7
